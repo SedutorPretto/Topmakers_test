@@ -1,8 +1,6 @@
 from enum import Enum
-
 from pydantic import BaseModel
 from typing import Union, Optional
-from enum import Enum
 
 
 class AttachmentType(str, Enum):
